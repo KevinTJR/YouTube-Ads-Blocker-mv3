@@ -230,7 +230,7 @@ const main = () => {
     updateUI(data);
   });
 
-  document.getElementById("gitHub").addEventListener("click", () => {
+  document.getElementById("github-link").addEventListener("click", () => {
     // OPENING LINKS FROM A CHROME EXTENSION REQUIRES USAGE OF THE CHROME TABS API
     chrome.tabs.create({ url: "https://github.com/KevinTJR/YouTube-Ads-Blocker-mv3.git", active: true });
   });
