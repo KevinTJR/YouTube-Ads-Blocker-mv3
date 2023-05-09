@@ -93,10 +93,16 @@ const keepLooping = async () => {
       document.hideElementsBySelector(".ytd-statement-banner-renderer");
       // -- SUBSCRIBE FOR PREMIUM
       document.hideElementsBySelector(".ytd-banner-promo-renderer");
+      // -- AD THAT DISPLAYS ON TOP OF SUGGESTED VIDEOS
+      document.hideElementsBySelector(".ytd-ad-slot-renderer");
+      document.hideElementsBySelector(".ytd-in-feed-ad-layout-renderer");
+      document.hideElementsBySelector(".ytd-player-legacy-desktop-watch-ads-renderer");
       // -- LOOKS SIMILAR TO SUBSCRIBE FOR PREMIUM BUT FOR A DIFFERENT ADVERTISER
       document.hideElementsBySelector(".ytd-video-masthead-ad-v3-renderer");
       // -- YOUTUBE TV AD
       document.hideElementsBySelector(".ytd-primetime-promo-renderer");
+      // -- YOUTUBE FEATURED
+      document.hideElementsBySelector(".ytd-brand-video-singleton-renderer");
       resolve();
     };
 
